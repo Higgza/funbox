@@ -1,0 +1,1089 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shallow test DragAndDrop.js 1 length array component DragAndDrop snapshot test 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DragAndDrop
+    ddMapArray={
+      Array [
+        Object {
+          "name": "One Name",
+        },
+      ]
+    }
+    onCArray={[MockFunction]}
+    onDeteleArrayRoute={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        null,
+        <div
+          className="testClassName2"
+        >
+          <h2>
+            Добавте минимум 2 точки маршрута
+          </h2>
+          <ul>
+            <li>
+              One Name
+               
+              <i
+                className="material-icons"
+                onClick={[Function]}
+              >
+                delete_forever
+              </i>
+            </li>
+          </ul>
+        </div>,
+      ],
+      "className": "DragAndDrop",
+    },
+    "ref": null,
+    "rendered": Array [
+      null,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Добавте минимум 2 точки маршрута
+            </h2>,
+            <ul>
+              <li>
+                One Name
+                 
+                <i
+                  className="material-icons"
+                  onClick={[Function]}
+                >
+                  delete_forever
+                </i>
+              </li>
+            </ul>,
+          ],
+          "className": "testClassName2",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Добавте минимум 2 точки маршрута",
+            },
+            "ref": null,
+            "rendered": "Добавте минимум 2 точки маршрута",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <li>
+                One Name
+                 
+                <i
+                  className="material-icons"
+                  onClick={[Function]}
+                >
+                  delete_forever
+                </i>
+              </li>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "One Name",
+                  " ",
+                  <i
+                    className="material-icons"
+                    onClick={[Function]}
+                  >
+                    delete_forever
+                  </i>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "One Name",
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "delete_forever",
+                    "className": "material-icons",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "delete_forever",
+                  "type": "i",
+                },
+              ],
+              "type": "li",
+            },
+            "type": "ul",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          null,
+          <div
+            className="testClassName2"
+          >
+            <h2>
+              Добавте минимум 2 точки маршрута
+            </h2>
+            <ul>
+              <li>
+                One Name
+                 
+                <i
+                  className="material-icons"
+                  onClick={[Function]}
+                >
+                  delete_forever
+                </i>
+              </li>
+            </ul>
+          </div>,
+        ],
+        "className": "DragAndDrop",
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Добавте минимум 2 точки маршрута
+              </h2>,
+              <ul>
+                <li>
+                  One Name
+                   
+                  <i
+                    className="material-icons"
+                    onClick={[Function]}
+                  >
+                    delete_forever
+                  </i>
+                </li>
+              </ul>,
+            ],
+            "className": "testClassName2",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Добавте минимум 2 точки маршрута",
+              },
+              "ref": null,
+              "rendered": "Добавте минимум 2 точки маршрута",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <li>
+                  One Name
+                   
+                  <i
+                    className="material-icons"
+                    onClick={[Function]}
+                  >
+                    delete_forever
+                  </i>
+                </li>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "One Name",
+                    " ",
+                    <i
+                      className="material-icons"
+                      onClick={[Function]}
+                    >
+                      delete_forever
+                    </i>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "One Name",
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "delete_forever",
+                      "className": "material-icons",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "delete_forever",
+                    "type": "i",
+                  },
+                ],
+                "type": "li",
+              },
+              "type": "ul",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Shallow test DragAndDrop.js initial component DragAndDrop snapshot test 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DragAndDrop
+    ddMapArray={Array []}
+    onCArray={[MockFunction]}
+    onDeteleArrayRoute={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        null,
+        null,
+      ],
+      "className": "DragAndDrop",
+    },
+    "ref": null,
+    "rendered": Array [
+      null,
+      null,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          null,
+          null,
+        ],
+        "className": "DragAndDrop",
+      },
+      "ref": null,
+      "rendered": Array [
+        null,
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Shallow test DragAndDrop.js props test component DragAndDrop snapshot test DragAndDrop 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DragAndDrop
+    ddMapArray={
+      Array [
+        Object {
+          "name": "One Name",
+        },
+        Object {
+          "name": "Two Name",
+        },
+        Object {
+          "name": "Three Name",
+        },
+      ]
+    }
+    onCArray={[MockFunction]}
+    onDeteleArrayRoute={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="testClassName1"
+        >
+          <h2>
+            Построенный Вами маршрут
+          </h2>
+          <ul>
+            <li
+              draggable={true}
+              onDragEnd={[Function]}
+              onDragEnter={[Function]}
+              onDragLeave={[Function]}
+            >
+              One Name
+               
+              <i
+                className="material-icons"
+                onClick={[Function]}
+              >
+                delete_forever
+              </i>
+            </li>
+            <li
+              draggable={true}
+              onDragEnd={[Function]}
+              onDragEnter={[Function]}
+              onDragLeave={[Function]}
+            >
+              Two Name
+               
+              <i
+                className="material-icons"
+                onClick={[Function]}
+              >
+                delete_forever
+              </i>
+            </li>
+            <li
+              draggable={true}
+              onDragEnd={[Function]}
+              onDragEnter={[Function]}
+              onDragLeave={[Function]}
+            >
+              Three Name
+               
+              <i
+                className="material-icons"
+                onClick={[Function]}
+              >
+                delete_forever
+              </i>
+            </li>
+          </ul>
+        </div>,
+        null,
+      ],
+      "className": "DragAndDrop",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Построенный Вами маршрут
+            </h2>,
+            <ul>
+              <li
+                draggable={true}
+                onDragEnd={[Function]}
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+              >
+                One Name
+                 
+                <i
+                  className="material-icons"
+                  onClick={[Function]}
+                >
+                  delete_forever
+                </i>
+              </li>
+              <li
+                draggable={true}
+                onDragEnd={[Function]}
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+              >
+                Two Name
+                 
+                <i
+                  className="material-icons"
+                  onClick={[Function]}
+                >
+                  delete_forever
+                </i>
+              </li>
+              <li
+                draggable={true}
+                onDragEnd={[Function]}
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+              >
+                Three Name
+                 
+                <i
+                  className="material-icons"
+                  onClick={[Function]}
+                >
+                  delete_forever
+                </i>
+              </li>
+            </ul>,
+          ],
+          "className": "testClassName1",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Построенный Вами маршрут",
+            },
+            "ref": null,
+            "rendered": "Построенный Вами маршрут",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  draggable={true}
+                  onDragEnd={[Function]}
+                  onDragEnter={[Function]}
+                  onDragLeave={[Function]}
+                >
+                  One Name
+                   
+                  <i
+                    className="material-icons"
+                    onClick={[Function]}
+                  >
+                    delete_forever
+                  </i>
+                </li>,
+                <li
+                  draggable={true}
+                  onDragEnd={[Function]}
+                  onDragEnter={[Function]}
+                  onDragLeave={[Function]}
+                >
+                  Two Name
+                   
+                  <i
+                    className="material-icons"
+                    onClick={[Function]}
+                  >
+                    delete_forever
+                  </i>
+                </li>,
+                <li
+                  draggable={true}
+                  onDragEnd={[Function]}
+                  onDragEnter={[Function]}
+                  onDragLeave={[Function]}
+                >
+                  Three Name
+                   
+                  <i
+                    className="material-icons"
+                    onClick={[Function]}
+                  >
+                    delete_forever
+                  </i>
+                </li>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "One Name",
+                    " ",
+                    <i
+                      className="material-icons"
+                      onClick={[Function]}
+                    >
+                      delete_forever
+                    </i>,
+                  ],
+                  "draggable": true,
+                  "onDragEnd": [Function],
+                  "onDragEnter": [Function],
+                  "onDragLeave": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "One Name",
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "delete_forever",
+                      "className": "material-icons",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "delete_forever",
+                    "type": "i",
+                  },
+                ],
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Two Name",
+                    " ",
+                    <i
+                      className="material-icons"
+                      onClick={[Function]}
+                    >
+                      delete_forever
+                    </i>,
+                  ],
+                  "draggable": true,
+                  "onDragEnd": [Function],
+                  "onDragEnter": [Function],
+                  "onDragLeave": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Two Name",
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "delete_forever",
+                      "className": "material-icons",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "delete_forever",
+                    "type": "i",
+                  },
+                ],
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Three Name",
+                    " ",
+                    <i
+                      className="material-icons"
+                      onClick={[Function]}
+                    >
+                      delete_forever
+                    </i>,
+                  ],
+                  "draggable": true,
+                  "onDragEnd": [Function],
+                  "onDragEnter": [Function],
+                  "onDragLeave": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Three Name",
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "delete_forever",
+                      "className": "material-icons",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "delete_forever",
+                    "type": "i",
+                  },
+                ],
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+        ],
+        "type": "div",
+      },
+      null,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="testClassName1"
+          >
+            <h2>
+              Построенный Вами маршрут
+            </h2>
+            <ul>
+              <li
+                draggable={true}
+                onDragEnd={[Function]}
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+              >
+                One Name
+                 
+                <i
+                  className="material-icons"
+                  onClick={[Function]}
+                >
+                  delete_forever
+                </i>
+              </li>
+              <li
+                draggable={true}
+                onDragEnd={[Function]}
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+              >
+                Two Name
+                 
+                <i
+                  className="material-icons"
+                  onClick={[Function]}
+                >
+                  delete_forever
+                </i>
+              </li>
+              <li
+                draggable={true}
+                onDragEnd={[Function]}
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+              >
+                Three Name
+                 
+                <i
+                  className="material-icons"
+                  onClick={[Function]}
+                >
+                  delete_forever
+                </i>
+              </li>
+            </ul>
+          </div>,
+          null,
+        ],
+        "className": "DragAndDrop",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Построенный Вами маршрут
+              </h2>,
+              <ul>
+                <li
+                  draggable={true}
+                  onDragEnd={[Function]}
+                  onDragEnter={[Function]}
+                  onDragLeave={[Function]}
+                >
+                  One Name
+                   
+                  <i
+                    className="material-icons"
+                    onClick={[Function]}
+                  >
+                    delete_forever
+                  </i>
+                </li>
+                <li
+                  draggable={true}
+                  onDragEnd={[Function]}
+                  onDragEnter={[Function]}
+                  onDragLeave={[Function]}
+                >
+                  Two Name
+                   
+                  <i
+                    className="material-icons"
+                    onClick={[Function]}
+                  >
+                    delete_forever
+                  </i>
+                </li>
+                <li
+                  draggable={true}
+                  onDragEnd={[Function]}
+                  onDragEnter={[Function]}
+                  onDragLeave={[Function]}
+                >
+                  Three Name
+                   
+                  <i
+                    className="material-icons"
+                    onClick={[Function]}
+                  >
+                    delete_forever
+                  </i>
+                </li>
+              </ul>,
+            ],
+            "className": "testClassName1",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Построенный Вами маршрут",
+              },
+              "ref": null,
+              "rendered": "Построенный Вами маршрут",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    draggable={true}
+                    onDragEnd={[Function]}
+                    onDragEnter={[Function]}
+                    onDragLeave={[Function]}
+                  >
+                    One Name
+                     
+                    <i
+                      className="material-icons"
+                      onClick={[Function]}
+                    >
+                      delete_forever
+                    </i>
+                  </li>,
+                  <li
+                    draggable={true}
+                    onDragEnd={[Function]}
+                    onDragEnter={[Function]}
+                    onDragLeave={[Function]}
+                  >
+                    Two Name
+                     
+                    <i
+                      className="material-icons"
+                      onClick={[Function]}
+                    >
+                      delete_forever
+                    </i>
+                  </li>,
+                  <li
+                    draggable={true}
+                    onDragEnd={[Function]}
+                    onDragEnter={[Function]}
+                    onDragLeave={[Function]}
+                  >
+                    Three Name
+                     
+                    <i
+                      className="material-icons"
+                      onClick={[Function]}
+                    >
+                      delete_forever
+                    </i>
+                  </li>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "One Name",
+                      " ",
+                      <i
+                        className="material-icons"
+                        onClick={[Function]}
+                      >
+                        delete_forever
+                      </i>,
+                    ],
+                    "draggable": true,
+                    "onDragEnd": [Function],
+                    "onDragEnter": [Function],
+                    "onDragLeave": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "One Name",
+                    " ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "delete_forever",
+                        "className": "material-icons",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "delete_forever",
+                      "type": "i",
+                    },
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Two Name",
+                      " ",
+                      <i
+                        className="material-icons"
+                        onClick={[Function]}
+                      >
+                        delete_forever
+                      </i>,
+                    ],
+                    "draggable": true,
+                    "onDragEnd": [Function],
+                    "onDragEnter": [Function],
+                    "onDragLeave": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Two Name",
+                    " ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "delete_forever",
+                        "className": "material-icons",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "delete_forever",
+                      "type": "i",
+                    },
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Three Name",
+                      " ",
+                      <i
+                        className="material-icons"
+                        onClick={[Function]}
+                      >
+                        delete_forever
+                      </i>,
+                    ],
+                    "draggable": true,
+                    "onDragEnd": [Function],
+                    "onDragEnter": [Function],
+                    "onDragLeave": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Three Name",
+                    " ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "delete_forever",
+                        "className": "material-icons",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "delete_forever",
+                      "type": "i",
+                    },
+                  ],
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+          ],
+          "type": "div",
+        },
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

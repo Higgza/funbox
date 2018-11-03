@@ -1,0 +1,47 @@
+
+.DragAndDrop ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin: 20px auto;
+}
+.DragAndDrop ul li {
+    border: 1px solid #dbdbdb;
+    margin: 5px auto;
+    cursor: move;
+    width: 70%;
+    position: relative;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.1);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.DragAndDrop ul li i {
+    position: relative;
+    font-size: 20px;
+    float: right;
+    right: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    color: #ff5664;
+}
+.DragAndDrop ul li i:hover {
+    color: red;
+}
+
+.testClassName1 {
+    border-radius: 4px;
+    border: 1px solid #d5d5d5;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 70%;
+}
+
+.testClassName2 {
+    border-radius: 4px;
+    border: 1px solid #d5d5d5;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 70%;
+}

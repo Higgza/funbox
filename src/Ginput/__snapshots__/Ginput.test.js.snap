@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ginput component Initial Ginput component snapshot initial Ginput component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Gimput
+    location={[MockFunction]}
+    mapInfo=""
+    onAddMapArray={[MockFunction]}
+    onaddAdress={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <default_1$$1
+          autoActivateFirstSuggest={false}
+          disabled={false}
+          fixtures={Array []}
+          getSuggestLabel={[Function]}
+          highlightMatch={true}
+          ignoreEnter={false}
+          ignoreTab={true}
+          initialValue=""
+          location={[MockFunction]}
+          maxFixtures={10}
+          minLength={1}
+          onKeyDown={[Function]}
+          onKeyPress={[Function]}
+          onSuggestSelect={[MockFunction]}
+          placeholder="Укажите точку маршрута"
+          queryDelay={0}
+          radius={20}
+          skipSuggest={[Function]}
+          style={Object {}}
+        />,
+        <button
+          className="geobtn"
+          disabled={true}
+          onClick={[Function]}
+        >
+          Add for route
+        </button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoActivateFirstSuggest": false,
+          "disabled": false,
+          "fixtures": Array [],
+          "getSuggestLabel": [Function],
+          "highlightMatch": true,
+          "ignoreEnter": false,
+          "ignoreTab": true,
+          "initialValue": "",
+          "location": [MockFunction],
+          "maxFixtures": 10,
+          "minLength": 1,
+          "onKeyDown": [Function],
+          "onKeyPress": [Function],
+          "onSuggestSelect": [MockFunction],
+          "placeholder": "Укажите точку маршрута",
+          "queryDelay": 0,
+          "radius": 20,
+          "skipSuggest": [Function],
+          "style": Object {},
+        },
+        "ref": [Function],
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add for route",
+          "className": "geobtn",
+          "disabled": true,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Add for route",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <default_1$$1
+            autoActivateFirstSuggest={false}
+            disabled={false}
+            fixtures={Array []}
+            getSuggestLabel={[Function]}
+            highlightMatch={true}
+            ignoreEnter={false}
+            ignoreTab={true}
+            initialValue=""
+            location={[MockFunction]}
+            maxFixtures={10}
+            minLength={1}
+            onKeyDown={[Function]}
+            onKeyPress={[Function]}
+            onSuggestSelect={[MockFunction]}
+            placeholder="Укажите точку маршрута"
+            queryDelay={0}
+            radius={20}
+            skipSuggest={[Function]}
+            style={Object {}}
+          />,
+          <button
+            className="geobtn"
+            disabled={true}
+            onClick={[Function]}
+          >
+            Add for route
+          </button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoActivateFirstSuggest": false,
+            "disabled": false,
+            "fixtures": Array [],
+            "getSuggestLabel": [Function],
+            "highlightMatch": true,
+            "ignoreEnter": false,
+            "ignoreTab": true,
+            "initialValue": "",
+            "location": [MockFunction],
+            "maxFixtures": 10,
+            "minLength": 1,
+            "onKeyDown": [Function],
+            "onKeyPress": [Function],
+            "onSuggestSelect": [MockFunction],
+            "placeholder": "Укажите точку маршрута",
+            "queryDelay": 0,
+            "radius": 20,
+            "skipSuggest": [Function],
+            "style": Object {},
+          },
+          "ref": [Function],
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add for route",
+            "className": "geobtn",
+            "disabled": true,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Add for route",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Ginput component Props Ginput component snapshot Props Ginput component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Gimput
+    location={[MockFunction]}
+    mapInfo="string"
+    onAddMapArray={[MockFunction]}
+    onaddAdress={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <default_1$$1
+          autoActivateFirstSuggest={false}
+          disabled={false}
+          fixtures={Array []}
+          getSuggestLabel={[Function]}
+          highlightMatch={true}
+          ignoreEnter={false}
+          ignoreTab={true}
+          initialValue=""
+          location={[MockFunction]}
+          maxFixtures={10}
+          minLength={1}
+          onKeyDown={[Function]}
+          onKeyPress={[Function]}
+          onSuggestSelect={[MockFunction]}
+          placeholder="Укажите точку маршрута"
+          queryDelay={0}
+          radius={20}
+          skipSuggest={[Function]}
+          style={Object {}}
+        />,
+        <button
+          className="geobtn"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Add for route
+        </button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoActivateFirstSuggest": false,
+          "disabled": false,
+          "fixtures": Array [],
+          "getSuggestLabel": [Function],
+          "highlightMatch": true,
+          "ignoreEnter": false,
+          "ignoreTab": true,
+          "initialValue": "",
+          "location": [MockFunction],
+          "maxFixtures": 10,
+          "minLength": 1,
+          "onKeyDown": [Function],
+          "onKeyPress": [Function],
+          "onSuggestSelect": [MockFunction],
+          "placeholder": "Укажите точку маршрута",
+          "queryDelay": 0,
+          "radius": 20,
+          "skipSuggest": [Function],
+          "style": Object {},
+        },
+        "ref": [Function],
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add for route",
+          "className": "geobtn",
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Add for route",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <default_1$$1
+            autoActivateFirstSuggest={false}
+            disabled={false}
+            fixtures={Array []}
+            getSuggestLabel={[Function]}
+            highlightMatch={true}
+            ignoreEnter={false}
+            ignoreTab={true}
+            initialValue=""
+            location={[MockFunction]}
+            maxFixtures={10}
+            minLength={1}
+            onKeyDown={[Function]}
+            onKeyPress={[Function]}
+            onSuggestSelect={[MockFunction]}
+            placeholder="Укажите точку маршрута"
+            queryDelay={0}
+            radius={20}
+            skipSuggest={[Function]}
+            style={Object {}}
+          />,
+          <button
+            className="geobtn"
+            disabled={false}
+            onClick={[Function]}
+          >
+            Add for route
+          </button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoActivateFirstSuggest": false,
+            "disabled": false,
+            "fixtures": Array [],
+            "getSuggestLabel": [Function],
+            "highlightMatch": true,
+            "ignoreEnter": false,
+            "ignoreTab": true,
+            "initialValue": "",
+            "location": [MockFunction],
+            "maxFixtures": 10,
+            "minLength": 1,
+            "onKeyDown": [Function],
+            "onKeyPress": [Function],
+            "onSuggestSelect": [MockFunction],
+            "placeholder": "Укажите точку маршрута",
+            "queryDelay": 0,
+            "radius": 20,
+            "skipSuggest": [Function],
+            "style": Object {},
+          },
+          "ref": [Function],
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add for route",
+            "className": "geobtn",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Add for route",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
